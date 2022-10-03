@@ -1,7 +1,5 @@
 import * as React from 'react';
-import {View, Text} from 'react-native';
-
-import { NavigationContainer, TabActions } from '@react-navigation/native';
+import { NavigationContainer, tabBarOptions } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -19,15 +17,18 @@ const Tab = createBottomTabNavigator();
 
 
 export default function MainContainer(){
+    
     return(
+
         <NavigationContainer>
             <Tab.Navigator
                 initalRouteName={homeName}
                 screenOptions={({route})=> ({
                     tabBarIcon:({focused, color, size})=> {
+
                         let iconName;
                         let rn = route.name;
-
+                        // navigation bar images
                         if(rn == homeName){
                             iconName = focused ? 'home' : 'home-outline'
                         }
@@ -38,10 +39,11 @@ export default function MainContainer(){
                             iconName = focused ? 'list' : 'list-outline'
                         }
                         
-
                         return <Ionicons name={iconName} size={size} color={color}/>
                     }
                 })}
+
+                // change the navigation bar styles here
                 tabBarOptions={{
                     activeTintColor:'pink',
                     inactiveTintColor:'grey',
@@ -55,5 +57,6 @@ export default function MainContainer(){
                 
             </Tab.Navigator>
         </NavigationContainer>
+
     );
 }

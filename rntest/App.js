@@ -1,6 +1,7 @@
 import * as React from 'react';
 import MainContainer from './navigation/MainContainer';
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
+import RNBootSplash from 'react-native-bootsplash';
 
 function App(){
   return(
