@@ -9,8 +9,17 @@ export default function Task({navigation}){
             <View style={styles.taskWrapper}>
                 <View style={styles.tasks}>
                     <BouncyCheckbox 
-                        text='Task'
-                        
+                        text='Task1'
+                    />
+                </View>
+                <View style={styles.tasks}>
+                    <BouncyCheckbox 
+                        text='Task2'
+                    />
+                </View>
+                <View style={styles.tasks}>
+                    <BouncyCheckbox 
+                        text='Task3'
                     />
                 </View>
             </View>
@@ -24,11 +33,12 @@ const styles = StyleSheet.create({
     },
     taskWrapper:{
         paddingTop:10,
-        paddingHorizontal:10, 
+        paddingHorizontal:10,
     },
     tasks:{
         backgroundColor:'#fff',
         padding:20,
         borderRadius:20,
+        marginVertical:10
     },
 });
