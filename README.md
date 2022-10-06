@@ -9,26 +9,34 @@ You have to install Node.js first
 
 # Open the file in android simulator
 
-1.drag the 'rntest' to desktop first
+1. Drag the 'rntest2' to desktop first
 
-2.open cmd.exe and input
+2. Open cmd.exe and input
 
-i.
-
-```
-cd desktop\rntest
-```
-
-ii.
+i. 
 
 ```
-npm install
+cd desktop\rntest2
 ```
 
-iii.
+ii. 
 
 ```
-npm start
+npx react-native start
 ```
 
-After the QRCode shown on the cmd, you can press 'A' to open Android Simulator
+3. Just keep the exisiting cmd window and open a new one.
+
+i. 
+
+```
+cd desktop\rntest2
+```
+
+ii. 
+
+```
+npx react-native run-android
+```
+
+Wait for a while and the android emulator will prompt out.
