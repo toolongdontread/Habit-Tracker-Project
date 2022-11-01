@@ -5,7 +5,7 @@ The app is still under development.
 
 # Preparation
 
-You have to install Node.js first
+You have to install Node.js and Android Studio first.
 
 # Open the file in android simulator
 
@@ -18,8 +18,12 @@ i.
 ```
 cd desktop\rntest2
 ```
-
 ii. 
+
+```
+npm install
+```
+iii. 
 
 ```
 npx react-native start
