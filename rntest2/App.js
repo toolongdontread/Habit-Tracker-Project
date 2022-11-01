@@ -16,7 +16,7 @@ function HomeScreen() {
             </Text>
         </View>
         <View style={styles.expContainer}>
-            <Image source={require('./testingImage.png')}/>
+        <Image style={styles.image} source={require('./testingImage.png')}/>
             <Text style={styles.expText}>
                 Exp:
             </Text>
@@ -141,5 +141,9 @@ const styles = StyleSheet.create({
     padding:20,
     borderRadius:20,
     marginVertical:5
-},
+  },
+  image:{
+    height:320,
+    width:370,
+  },
 })
