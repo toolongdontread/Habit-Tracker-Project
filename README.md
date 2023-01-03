@@ -6,13 +6,13 @@ The app is still under development.
 
 This app is built by React Native.
 
-# Preparation
+## Preparation
 
 You have to install Node.js and Android Studio first.
 
 You have to set ANDROID_HOME and platform-tools in environment variables properly.
 
-# Open the app in android simulator
+## Open the app in android simulator
 
 1. Drag the 'rntest2' to desktop first
 
