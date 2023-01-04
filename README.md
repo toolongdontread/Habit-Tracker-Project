@@ -1,8 +1,6 @@
-# Habit-Tracker-Project
+# Habit-Tracker-Project (The app development temporary stops)
 
 This is a project aims to build a habit tracker app.
-
-The app is still under development.
 
 This app is built by React Native.
 
@@ -12,7 +10,7 @@ You have to install Node.js and Android Studio first.
 
 You have to set ANDROID_HOME and platform-tools in environment variables properly.
 
-## Open the app in android simulator
+## How to run the app in Android Studio?
 
 1. Drag the 'rntest2' to desktop first
 
