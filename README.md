@@ -30,7 +30,7 @@ npm install
 iii. 
 
 ```
-npx react-native start
+npm start
 ```
 
 3. Just keep the exisiting cmd window and open a new one.
