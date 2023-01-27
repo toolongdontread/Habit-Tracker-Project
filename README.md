@@ -30,21 +30,10 @@ npm install
 iii. 
 
 ```
-npm start
+npx react-native start
 ```
-
-3. Just keep the exisiting cmd window and open a new one.
-
-i. 
+iv.
 
 ```
-cd desktop\rntest2
+a
 ```
-
-ii. 
-
-```
-npx react-native run-android
-```
-
-Wait for a while and the android emulator will prompt out.
