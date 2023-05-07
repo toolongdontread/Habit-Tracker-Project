@@ -1,4 +1,4 @@
-# Habit-Tracker-Project (Stop development)
+# Habit-Tracker-Project (Discontiued)
 
 
 This is a project aims to build a habit tracker app.
