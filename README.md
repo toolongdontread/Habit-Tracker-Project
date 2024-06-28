@@ -11,7 +11,7 @@ You have to install Node.js and Android Studio first.
 
 You have to set ANDROID_HOME and platform-tools in environment variables properly.
 
-## How to run the app in Android Studio?
+## How to run the app on Android Studio?
 
 1. Extract the folder 'Habit-Tracker-Project-main' to desktop first
 
