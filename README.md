@@ -13,7 +13,7 @@ You have to set ANDROID_HOME and platform-tools in environment variables properl
 
 ## How to run the app in Android Studio?
 
-1. Drag the 'Habit-Tracker-Project-main' to desktop first
+1. Extract the folder 'Habit-Tracker-Project-main' to desktop first
 
 2. Open cmd.exe and input the following codes
 
