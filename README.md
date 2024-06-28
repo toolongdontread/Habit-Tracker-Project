@@ -13,14 +13,14 @@ You have to set ANDROID_HOME and platform-tools in environment variables properl
 
 ## How to run the app in Android Studio?
 
-1. Drag the 'rntest2' to desktop first
+1. Drag the 'Habit-Tracker-Project-main' to desktop first
 
-2. Open cmd.exe and input
+2. Open cmd.exe and input the following codes
 
 i. 
 
 ```
-cd desktop\rntest2
+cd desktop\Habit-Tracker-Project-main
 ```
 ii. 
 
@@ -38,7 +38,7 @@ npm start
 i. 
 
 ```
-cd desktop\rntest2
+cd desktop\Habit-Tracker-Project-main
 ```
 
 ii. 
